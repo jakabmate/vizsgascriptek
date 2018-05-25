@@ -27,7 +27,7 @@ EOF
 #Kész Dockerfile, html oldal beillesztése
 touch web/index.html
 cat <<EOF> web/index.html
-<h1 align=center>Sikerült a vizsga!!!</h1>
+<h1>Sikeres a vizsga!!!</h1>
 EOF
 #Dockerimage kreálása és futtatása
 cd ~
